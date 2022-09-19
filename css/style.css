@@ -288,7 +288,7 @@ header.sticky{
 	transition: all .40s;
 }
 .layer:hover{
-	background: linear-gradient(rgba(0,0,0,0.5) 0%, #191919);
+	background: linear-gradient(rgba(0,0,0,0.1) 0%, #191919);
 }
 .layer h3{
 	position: absolute;
@@ -322,6 +322,22 @@ header.sticky{
 .layer:hover h5{
 	bottom: 48%;
 	opacity: 1;
+}
+
+.layer .btn{
+	position: absolute;
+	width: 40%;
+	font-size: 12px;
+	font-weight: 500;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+	transition: all .40s;
+}
+.layer:hover .btn{
+	bottom: 35%;
+	opacity: 0.9;
 }
 
 .service-content{
