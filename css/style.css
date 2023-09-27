@@ -459,17 +459,23 @@ header.sticky{
 	line-height: 26px;
 	margin-bottom: 25px;
 }
-.contact .action form input[type="email"] {
-	max-width: 100%;
-	width: 470px;
-	padding: 12px 15px;
-	background: var(--bg-color);
-	color: var(--text-color);
-	border: none;
-	outline: none;
-	margin: 0 10px 20px 0;
-	border-radius: 30px;
+.contact .action form input[type="email"],
+.contact .action form textarea {
+    max-width: 100%;
+    width: 470px;
+    padding: 12px 15px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0;
+    border-radius: 30px;
 }
+
+.contact .action form textarea {
+    height: 200px; /* Adjust the height as needed */
+}
+
 .contact .action form input[type="submit"] {
 	padding: 12px 40px;
 	background: var(--main-color);
